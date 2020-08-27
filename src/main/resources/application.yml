@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: test
+mybatis:
+  type-aliases-package: com.moji.servicemonitor.entity
+  mapper-locations: classpath:/mapper/*.xml
+  configuration:
+    mapUnderscoreToCamelCase: true
+ding:
+  access_token: 3ae0009b90e8bee48f8a65b40efc1080a98a32a2bdd1a84c75ee9c598ad213b1
+server:
+  port: 19900
